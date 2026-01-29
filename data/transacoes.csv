@@ -1,0 +1,21 @@
+data,descricao,categoria,valor,tipo
+2024-01-15,Supermercado Extra,Alimentação,-250.00,debito
+2024-01-16,Salário,Receita,5000.00,credito
+2024-01-17,Netflix,Entretenimento,-45.90,debito
+2024-01-18,Posto de Gasolina,Transporte,-200.00,debito
+2024-01-20,Farmácia,Saúde,-85.50,debito
+2024-01-22,Restaurante,Alimentação,-120.00,debito
+2024-01-25,Academia,Saúde,-150.00,debito
+2024-01-28,Uber,Transporte,-45.00,debito
+2024-01-29,Shopping,Compras,-350.00,credito
+2024-02-01,Aluguel,Moradia,-1500.00,debito
+2024-02-05,Conta de Luz,Utilidades,-180.00,debito
+2024-02-08,Investimento CDB,Investimento,-1000.00,transferencia
+2024-02-10,Supermercado Pão de Açúcar,Alimentação,-280.00,debito
+2024-02-12,Cinema,Entretenimento,-60.00,debito
+2024-02-14,Presente Dia dos Namorados,Compras,-250.00,credito
+2024-02-16,Salário,Receita,5000.00,credito
+2024-02-18,Consórcio Auto,Investimento,-500.00,debito
+2024-02-20,Padaria,Alimentação,-50.00,debito
+2024-02-22,Aplicativo Transporte,Transporte,-80.00,debito
+2024-02-25,Farmácia,Saúde,-95.00,debito

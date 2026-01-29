@@ -1,0 +1,31 @@
+{
+  "cliente_id": "CLI-2024-001",
+  "nome": "Maria Silva Santos",
+  "idade": 35,
+  "ocupacao": "Analista de Sistemas",
+  "renda_mensal": 5000.00,
+  "perfil_investidor": "moderado",
+  "objetivos_financeiros": [
+    "Comprar imóvel próprio em 5 anos",
+    "Criar reserva de emergência",
+    "Planejar aposentadoria"
+  ],
+  "tolerancia_risco": "média",
+  "horizonte_investimento": "médio_prazo",
+  "conhecimento_financeiro": "intermediário",
+  "preferencias": {
+    "tipo_investimento": ["renda_fixa", "fundos_imobiliarios"],
+    "liquidez_preferida": "média",
+    "aceita_risco": true,
+    "valor_minimo_aplicacao": 100.00
+  },
+  "situacao_atual": {
+    "saldo_conta_corrente": 2500.00,
+    "investimentos_totais": 15000.00,
+    "dividas": 0.00,
+    "score_credito": 850
+  },
+  "dependentes": 0,
+  "estado_civil": "solteira",
+  "escolaridade": "superior_completo"
+}

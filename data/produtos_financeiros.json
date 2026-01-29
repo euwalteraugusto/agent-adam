@@ -1,0 +1,106 @@
+{
+  "produtos": [
+    {
+      "id": "PROD-001",
+      "nome": "CDB Liquidez Diária",
+      "tipo": "renda_fixa",
+      "rentabilidade": "100% CDI",
+      "rentabilidade_anual_estimada": 12.5,
+      "liquidez": "D+0",
+      "investimento_minimo": 100.00,
+      "risco": "baixo",
+      "tributacao": "IR progressivo",
+      "garantia_fgc": true,
+      "perfil_recomendado": ["conservador", "moderado"]
+    },
+    {
+      "id": "PROD-002",
+      "nome": "CDB Prefixado 24 meses",
+      "tipo": "renda_fixa",
+      "rentabilidade": "13.5% ao ano",
+      "rentabilidade_anual_estimada": 13.5,
+      "liquidez": "no_vencimento",
+      "investimento_minimo": 1000.00,
+      "risco": "baixo",
+      "tributacao": "IR progressivo",
+      "garantia_fgc": true,
+      "perfil_recomendado": ["conservador", "moderado"]
+    },
+    {
+      "id": "PROD-003",
+      "nome": "Tesouro Selic",
+      "tipo": "renda_fixa",
+      "rentabilidade": "Selic",
+      "rentabilidade_anual_estimada": 11.75,
+      "liquidez": "D+1",
+      "investimento_minimo": 30.00,
+      "risco": "muito_baixo",
+      "tributacao": "IR progressivo",
+      "garantia_fgc": false,
+      "perfil_recomendado": ["conservador", "moderado", "arrojado"]
+    },
+    {
+      "id": "PROD-004",
+      "nome": "Fundo Imobiliário XPLG11",
+      "tipo": "fundos_imobiliarios",
+      "rentabilidade": "variável",
+      "dividend_yield": 8.5,
+      "liquidez": "D+3",
+      "investimento_minimo": 150.00,
+      "risco": "médio",
+      "tributacao": "isento IR dividendos",
+      "garantia_fgc": false,
+      "perfil_recomendado": ["moderado", "arrojado"]
+    },
+    {
+      "id": "PROD-005",
+      "nome": "Fundo Multimercado Premium",
+      "tipo": "fundos_multimercado",
+      "rentabilidade": "variável",
+      "rentabilidade_12m": 15.2,
+      "liquidez": "D+30",
+      "investimento_minimo": 5000.00,
+      "risco": "alto",
+      "tributacao": "come-cotas",
+      "garantia_fgc": false,
+      "perfil_recomendado": ["arrojado"]
+    },
+    {
+      "id": "PROD-006",
+      "nome": "LCI Banco XYZ",
+      "tipo": "renda_fixa",
+      "rentabilidade": "95% CDI",
+      "rentabilidade_anual_estimada": 11.8,
+      "liquidez": "D+90",
+      "investimento_minimo": 5000.00,
+      "risco": "baixo",
+      "tributacao": "isento IR",
+      "garantia_fgc": true,
+      "perfil_recomendado": ["conservador", "moderado"]
+    },
+    {
+      "id": "PROD-007",
+      "nome": "Previdência Privada PGBL",
+      "tipo": "previdencia",
+      "rentabilidade": "variável",
+      "rentabilidade_12m": 12.0,
+      "liquidez": "D+5",
+      "investimento_minimo": 200.00,
+      "risco": "médio",
+      "tributacao": "regressiva ou progressiva",
+      "garantia_fgc": false,
+      "perfil_recomendado": ["conservador", "moderado", "arrojado"]
+    },
+    {
+      "id": "PROD-008",
+      "nome": "Consórcio Imóvel",
+      "tipo": "consorcio",
+      "prazo_meses": 180,
+      "taxa_administracao": 15.0,
+      "valor_carta": 300000.00,
+      "parcela_estimada": 2000.00,
+      "risco": "baixo",
+      "perfil_recomendado": ["conservador", "moderado"]
+    }
+  ]
+}
