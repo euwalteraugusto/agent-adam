@@ -99,6 +99,11 @@ TOM DE VOZ:
 - Evite jargões desnecessários
 """
 
+    @staticmethod
+    def _investimento_minimo(produto: Dict) -> float:
+        """Valor mínimo de entrada; consórcios não têm 'investimento_minimo' e usam a parcela."""
+        return produto.get('investimento_minimo', produto.get('parcela_estimada', 0))
+
     def _analisar_contexto(self, mensagem: str) -> str:
         """Adiciona contexto relevante baseado na mensagem do usuário"""
         contexto_adicional = ""
@@ -111,7 +116,7 @@ TOM DE VOZ:
             ]
             contexto_adicional += "\n\nPRODUTOS DISPONÍVEIS PARA SEU PERFIL:\n"
             for p in produtos_recomendados[:3]:
-                contexto_adicional += f"- {p['nome']}: {p['tipo']} | Rentabilidade: {p['rentabilidade']} | Mínimo: R$ {p['investimento_minimo']}\n"
+                contexto_adicional += f"- {p['nome']}: {p['tipo']} | Rentabilidade: {p.get('rentabilidade', 'n/d')} | Mínimo: R$ {self._investimento_minimo(p)}\n"
         
         # Se mencionar gastos, adiciona análise detalhada
         if any(palavra in mensagem.lower() for palavra in ['gasto', 'gastei', 'despesa', 'economizar']):
@@ -221,7 +226,7 @@ TOM DE VOZ:
                 continue
             
             # Verifica se tem valor mínimo
-            if valor_disponivel < produto['investimento_minimo']:
+            if valor_disponivel < self._investimento_minimo(produto):
                 continue
             
             # Adiciona score de recomendação
